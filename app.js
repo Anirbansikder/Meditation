@@ -20,6 +20,7 @@ const app = () => {
       sound.addEventListener("click" , function(){
         song.src = this.getAttribute('data-sound');
         video.src = this.getAttribute('data-video');
+        play.src = "./svg/play.svg";
       });
   });
 
